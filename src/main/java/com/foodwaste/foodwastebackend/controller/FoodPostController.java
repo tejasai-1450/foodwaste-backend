@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/food-posts")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://foodwaste-frontend-xwi3.onrender.com")
 public class FoodPostController {
 
     private final FoodPostService foodPostService;

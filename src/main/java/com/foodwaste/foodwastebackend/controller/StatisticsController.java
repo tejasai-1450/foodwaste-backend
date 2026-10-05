@@ -11,7 +11,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/statistics")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://foodwaste-frontend-xwi3.onrender.com")
 public class StatisticsController {
 
     private final FoodPostRepository foodPostRepository;

@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://foodwaste-frontend-xwi3.onrender.com")
 public class UserController {
 
     private final UserService userService;
